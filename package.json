@@ -1,0 +1,16 @@
+{
+  "name": "investigate-fipp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "shadow-cljs": "^0.18.3"
+  },
+  "scripts": {
+    "tiye": "rsync -r target/ --exclude cljs-runtime --exclude shadow-cljs repo.tiye.me:repo/gist/investigate-fipp/",
+    "watch": "shadow-cljs watch app",
+    "build": "shadow-cljs release app --debug",
+    "serve": "http-server target"
+  }
+}
