@@ -4,6 +4,8 @@
 
 > trying to figure out why `fipp.edn/pprint` is slow...
 
+Compiled example https://github.com/jiyinyiyong/investigate-fipp
+
 ### Usage
 
 Create `target/index.html`:
